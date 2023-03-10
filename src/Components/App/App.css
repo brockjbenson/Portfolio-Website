@@ -1,18 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap");
+
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+header,
+a {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/public/background.png");
-  backdrop-filter: blur(80px);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100dvh;
-  font-family: "Josefin Sans", sans-serif;
-}
 
-.card-container {
-  border: 1px solid white;
+  box-sizing: border-box;
 }

@@ -1,0 +1,67 @@
+.about-container {
+  background-color: rgb(224, 224, 224);
+  height: 100vh;
+}
+
+.about-header {
+  color: white;
+  font-size: 5rem;
+  padding-top: 15rem;
+  text-align: center;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 6rem;
+}
+
+.first-about-card,
+.second-about-card,
+.third-about-card {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 5px;
+  transition: 300ms;
+  -webkit-box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.38);
+}
+
+.first-about-card:hover,
+.second-about-card:hover,
+.third-about-card:hover {
+  scale: 105%;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.about-card-header {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #011d3d;
+  color: white;
+  font-size: 3rem;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.about-card-body {
+  color: white;
+  background-color: rgb(224, 224, 224);
+  font-size: 3rem;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  line-height: 6rem;
+}
+
+.about-card-body p {
+  margin-inline: 2rem;
+}

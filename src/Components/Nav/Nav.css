@@ -3,13 +3,18 @@
   flex-direction: row;
   justify-content: space-between;
   padding-block: 1rem;
+  height: 7vh;
+  position: sticky;
+  background-color: rgba(70, 70, 70, 0.5);
+  backdrop-filter: blur(10px);
+  top: 0;
 }
 
 .nav-header {
   display: flex;
   align-items: center;
   width: 25%;
-  color: rgb(277, 277, 277);
+  color: rgb(255, 255, 255);
 }
 
 .nav-header h2 {
@@ -41,7 +46,7 @@
 
 .contact-btn:hover {
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #011d3b;
   scale: 110%;
   transition: 300ms;
 }
