@@ -1,11 +1,13 @@
 .about-container {
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(210, 210, 210);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-header {
-  color: white;
-  font-size: 5rem;
+  color: #002958;
+  font-size: 3rem;
   padding-top: 15rem;
   text-align: center;
 }
@@ -22,28 +24,24 @@
   display: flex;
   flex-direction: column;
   width: 50rem;
-  height: 50rem;
+  height: 40rem;
   border-radius: 5px;
   transition: 300ms;
-  -webkit-box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.38);
-  -moz-box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.38);
-  box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 0px 7px 13px 2px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 7px 13px 2px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 7px 13px 2px rgba(0, 0, 0, 0.19);
 }
 
-.first-about-card:hover,
-.second-about-card:hover,
-.third-about-card:hover {
-  scale: 105%;
-  transition: 300ms;
-  cursor: pointer;
+a {
+  color: #002958;
 }
 
 .about-card-header {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  background-color: #011d3d;
+  background-color: #002958;
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   height: 15%;
   display: flex;
   justify-content: center;
@@ -52,7 +50,7 @@
 }
 
 .about-card-body {
-  color: white;
+  color: black;
   background-color: rgb(224, 224, 224);
   font-size: 3rem;
   height: 85%;

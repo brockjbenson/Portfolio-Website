@@ -10,6 +10,7 @@
   align-items: center;
   margin-inline: auto;
   height: 100vh;
+  margin-top: -9.15vh;
 }
 
 .landing-items {
@@ -43,7 +44,7 @@
 
 .learn-more-btn:hover {
   cursor: pointer;
-  background-color: #011d3b;
+  background-color: #002958;
   scale: 110%;
   transition: 300ms;
 }
