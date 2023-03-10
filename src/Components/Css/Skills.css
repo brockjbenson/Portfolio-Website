@@ -18,6 +18,7 @@
 .skills-body {
   display: flex;
   width: 50rem;
+  padding-left: 5rem;
 }
 
 .skills-text {

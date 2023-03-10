@@ -3,6 +3,7 @@ import "../Css/About.css";
 import "../Css/LandingMessage.css";
 import "../Css/Nav.css";
 import "../Css/Skills.css";
+import "../Css/Projects.css";
 import { useRef } from "react";
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
@@ -145,6 +146,14 @@ function App() {
           <div className="row r5">
             <BsGit className="icon" />
           </div>
+        </div>
+      </div>
+      <div ref={projects} className="projects-container">
+        <header className="projects-header">
+          <h1>My Work</h1>
+        </header>
+        <div className="projects">
+          <div className="project"></div>
         </div>
       </div>
     </div>
