@@ -66,7 +66,7 @@
   font-size: 2rem;
 }
 
-a {
+li {
   background: linear-gradient(to right, #ffffff, #ffffff);
   text-decoration: none;
   color: rgb(227, 227, 227);
@@ -77,12 +77,10 @@ a {
   background-repeat: no-repeat;
 
   transition: background-size 400ms;
-}
-
-a:hover {
-  background-size: 100% 1px, 100% 1px;
-}
-
-li {
   list-style: none;
+}
+
+li:hover {
+  background-size: 100% 1px, 100% 1px;
+  cursor: pointer;
 }
