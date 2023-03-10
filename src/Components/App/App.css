@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgb(33, 33, 33);
+  font-family: "Playfair Display", serif;
+}
+
+.card-container {
+  border: 1px solid white;
+}
