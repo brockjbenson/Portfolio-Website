@@ -4,7 +4,9 @@ export default function Nav() {
   return (
     <>
       <div className="nav">
-        <header className="nav-header">Brock Benson</header>
+        <header className="nav-header">
+          <h2>Brock Benson</h2>
+        </header>
 
         <ul className="nav-links">
           <li>
@@ -16,11 +18,10 @@ export default function Nav() {
           <li>
             <a href="">Projects</a>
           </li>
-
-          <li>
-            <a href="">Contact</a>
-          </li>
         </ul>
+        <div className="nav-btns">
+          <button className="contact-btn">Contact Me</button>
+        </div>
       </div>
     </>
   );
