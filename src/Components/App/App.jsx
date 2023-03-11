@@ -153,7 +153,22 @@ function App() {
           <h1>My Work</h1>
         </header>
         <div className="projects">
-          <div className="project"></div>
+          <div className="project-card">
+            <header className="project-header">
+              <h2>MyPokerStats</h2>
+            </header>
+            <div className="project-img">
+              <div className="img-1"></div>
+            </div>
+          </div>
+          <div className="project-card">
+            <header className="project-header">
+              <h2>Website Portfolio</h2>
+            </header>
+            <div className="project-img">
+              <div className="img-2"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

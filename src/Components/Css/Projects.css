@@ -2,5 +2,56 @@
   height: 100vh;
   background-color: rgb(210, 210, 210);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.projects-header {
+  color: #002958;
+  font-size: 3rem;
+  padding-top: 15rem;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.project-card {
+  width: 80rem;
+  height: 60rem;
+  background-color: rgb(210, 210, 210);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 13px 2px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 7px 13px 2px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 7px 13px 2px rgba(0, 0, 0, 0.19);
+}
+
+.project-header {
+  background-color: #002958;
+  color: white;
+  font-size: 2rem;
+  height: 6rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.img-1 {
+  background: url("/public/Images/MyPokerStats-Mockup.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80rem;
+  height: 54rem;
+}
+
+.img-2 {
+  background: url("/public/Images/Portfolio-Mockup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80rem;
+  height: 54rem;
 }
