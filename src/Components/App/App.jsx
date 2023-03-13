@@ -4,11 +4,15 @@ import "../Css/LandingMessage.css";
 import "../Css/Nav.css";
 import "../Css/Skills.css";
 import "../Css/Projects.css";
-import { useRef } from "react";
+import "../Css/Contact.css";
+import { useRef, useState } from "react";
+import copy from "copy-to-clipboard";
+
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
-import { BsGit } from "react-icons/bs";
+import { BsGit, BsGithub, BsLinkedin } from "react-icons/bs";
 import { SiPostgresql, SiJavascript, SiVisualstudiocode } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 function App() {
   const about = useRef(null);
@@ -16,6 +20,13 @@ function App() {
   const contact = useRef(null);
   const skills = useRef(null);
   const projects = useRef(null);
+
+  const email = "brockjbenson@outlook.com";
+
+  const copyToClipboard = () => {
+    copy(email);
+    alert(`You have copied "${email}"`);
+  };
 
   const handleClickAbout = () => {
     about.current?.scrollIntoView({ behavior: "smooth" });
@@ -32,6 +43,7 @@ function App() {
   const handleClickSkills = () => {
     skills.current?.scrollIntoView({ behavior: "smooth" });
   };
+
   return (
     <div className="App">
       <nav className="nav">
@@ -161,12 +173,41 @@ function App() {
               <div className="img-1"></div>
             </div>
           </div>
+
           <div className="project-card">
             <header className="project-header">
               <h2>Website Portfolio</h2>
             </header>
             <div className="project-img">
               <div className="img-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ref={contact} className="contact-container">
+        <header className="contact-header">
+          <h1>Get in Touch</h1>
+        </header>
+        <div className="contact-body">
+          <div className="contact-items">
+            <div className="contact-item">
+              <h2>LinkedIn</h2>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/brock-benson-02389b261/"
+              >
+                <BsLinkedin className="icon" />
+              </a>
+            </div>
+            <div className="contact-item">
+              <h2>GitHub</h2>
+              <a target="_blank" href="https://github.com/brockjbenson">
+                <BsGithub className="icon" />
+              </a>
+            </div>
+            <div className="contact-item">
+              <h2>brockjbenson@outlook.com</h2>
+              <MdEmail onClick={copyToClipboard} className="icon" />
             </div>
           </div>
         </div>
