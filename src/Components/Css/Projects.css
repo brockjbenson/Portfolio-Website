@@ -48,6 +48,10 @@
   height: 54rem;
 }
 
+a {
+  color: white;
+}
+
 .img-2 {
   background: url("/public/Images/Portfolio-Mockup.png");
   background-size: contain;

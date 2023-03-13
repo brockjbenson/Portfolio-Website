@@ -167,7 +167,12 @@ function App() {
         <div className="projects">
           <div className="project-card">
             <header className="project-header">
-              <h2>MyPokerStats</h2>
+              <a
+                target="_blank"
+                href="https://github.com/brockjbenson/solo-project-my-poker-stats"
+              >
+                <h2>MyPokerStats</h2>
+              </a>
             </header>
             <div className="project-img">
               <div className="img-1"></div>
@@ -176,7 +181,12 @@ function App() {
 
           <div className="project-card">
             <header className="project-header">
-              <h2>Website Portfolio</h2>
+              <a
+                target="_blank"
+                href="https://github.com/brockjbenson/Portfolio-Website"
+              >
+                <h2>Website Portfolio</h2>
+              </a>
             </header>
             <div className="project-img">
               <div className="img-2"></div>
