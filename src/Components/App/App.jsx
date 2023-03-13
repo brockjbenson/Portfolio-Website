@@ -5,7 +5,7 @@ import "../Css/Nav.css";
 import "../Css/Skills.css";
 import "../Css/Projects.css";
 import "../Css/Contact.css";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import copy from "copy-to-clipboard";
 
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
